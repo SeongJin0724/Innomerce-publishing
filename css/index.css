@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+.swiper-pagination-bullet {
+    background-color: #000;
+}
+
 .content {
     text-align: center;
     padding: 150px 0;
@@ -213,6 +217,7 @@ a {
     width: 100%;
     height: 800px;
     margin: 100px auto 150px;
+    overflow: hidden;
 }
 
 #visual .swiper-container {
@@ -1270,6 +1275,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 #banner2::after {
@@ -1441,31 +1447,6 @@ a {
     }
 }
 
-/* #banner2 {width: 100%; height: 576px; position: relative;  background-image: url(../img/testim-bg.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;}
-#banner2::after {content: ""; display: block; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.411); position: absolute; top: 0; left: 0;}
-#banner2 .inner {overflow: hidden;}
-#banner2 .banner2_slide_wrap {width: 3600px; height: 100%;}
-#banner2 .banner2_slide_wrap .banner2_box {width: 1200px; float: left; position: relative; z-index: 2;}
-#banner2 .banner2_slide_wrap .banner2_box  .banner2_img i {margin-bottom: 24px; font-size: 60px; color: #fff;}
-#banner2 .banner2_slide_wrap .banner2_box .banner2_info {color: #fff;}
-#banner2 .banner2_slide_wrap .banner2_box .banner2_info .banner2_txt {width: 1000px; line-height: 1.8; margin: 0 auto 24px; color: rgba(255, 255, 255, 0.733);}
-#banner2 .banner2_slide_wrap .banner2_box .banner2_name {margin-bottom: 24px; font-size: 24px; font-weight: normal; letter-spacing: 4px;}
-#banner2 .banner2_slide_wrap .banner2_client {font-size: 14px; font-weight: 300;letter-spacing: 5px;}
-#banner2 .banner2_prev {color: #333; font-size: 24px; position: absolute; left: 380px; top: 50%; z-index: 5;}
-#banner2 .banner2_next {color:#333; font-size: 24px; position: absolute; right: 380px; top: 50%; z-index: 5;}
-
-@media screen and (max-width:1200px){
-
-}
-@media screen and (max-width:980px){
-
-}
-@media screen and (max-width:768px){
-
-}
-@media screen and (max-width:640px){
-
-} */
 
 #contact {
     width: 100%;
