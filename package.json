@@ -1,0 +1,24 @@
+{
+  "name": "innomerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel innomerce.html",
+    "build": "parcel build innomerce.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeongJin0724/Innomerce-publishing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeongJin0724/Innomerce-publishing/issues"
+  },
+  "homepage": "https://github.com/SeongJin0724/Innomerce-publishing#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
